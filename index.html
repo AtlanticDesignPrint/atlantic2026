@@ -2,80 +2,6 @@
 
 <html>
     <head>
-
-<style type="text/css">
-
-
-*{
- margin: 0px;
- padding: 0px;
-}
-body{
- font-family: arial;
-}
-.main{
-
- margin: 2%;
-}
-
-.card{
-     width: 15%;
-     display: inline-block;
-     box-shadow: 2px 2px 20px black;
-     border-radius: 5px; 
-     margin: 2%;
-    }
-
-.image img{
-  width: 100%;
-  border-top-right-radius: 5px;
-  border-top-left-radius: 5px;
-  
- }
-
- body{background-color: white;
-  width: 100;
-  height: 100;
-  }
-
-.title{
- 
-  text-align: center;
-  padding: 10px;
-  
- }
-
-h1{
-  font-size: 20px;
- }
-
-.des{
-  padding: 3px;
-  text-align: center;
- background-color: rgb(112, 248, 112);
-  padding-top: 10px;
-        border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-button{
-  margin-top: 40px;
-  margin-bottom: 10px;
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 5px;
-  padding:10px;
-}
-button:hover{
-  background-color: black;
-  color: white;
-  transition: .5s;
-  cursor: pointer;
-}
-
-</style>
-
-
-
         
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -83,192 +9,100 @@ button:hover{
        <link rel="Stylesheet" type="text/css" href="../styles/index.css">
         <title>Atlantic design</title>
 
-           
+
+
+   
+
+
+        <title>javascript: calculate two numbers</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <script>
+            
+            function calc()
+            {
+                var n1 = parseFloat(document.getElementById('n1').value);
+                var n2 = parseFloat(document.getElementById('n2').value);
+                
+                var oper = document.getElementById('operators').value;
+                
+                if(oper === 'X')
+                {
+                    document.getElementById('result').value = n1*n2*0.006+75;
+                }
+            }
+            
+        </script>
         
     </head>
     <body>
 
 
-<nav>
-    <a class="link" href="./index.html">Home</a>
-<a class="link" href="./Products.html">Products</a>
-   <a class="link" href="./LED Light Signs.html">LED Light Signs</a>
-<a class="link" href="./Printed Signs.html">Printed Sign Boards</a>
-<a class="link" href="./Posters.html">Posters</a>
-
-<a class="link" href="./Stickers.html">Stickers</a>
-<a class="link" href="./Papers & Cards.html">Papers & Cards</a>
-<a class="link" href="./WorkWears.html">Clothing & Workwear</a>
-<a class="link" href="./Flags.html">Flags</a>
-<a class="link" href="./Stamps.html">Stamps</a>
-<a class="link" href="./Services.html">Services</a>
-  <a class="link" href="./Contact.html">Contact</a></a> 
+        
+    <nav>
+        <a class="link" href="./index.html">Home</a>
+    <a class="link" href="./Products.html">Products</a>
+    <a class="link" href="./aluminiumDibond.html">aluminiumDibond</a>
+    <a class="link" href="./Banner.html">Banner</a>
+    <a class="link" href="./outsideWaterProofSticker.html">outside Waterproof sticker</a>
+    <a class="link" href="./foamex.html">Foamex</a>
+    <a class="link" href="./Opalplastic.html">Opalplastic</a>  
  </nav>
+    <hr />
+    <nav>
+        <a class="link" href="./BusinessCard.html">BusinessCard</a>
+        <a class="link" href="./GiftVoucher.html">GiftVoucher</a>
+        <a class="link" href="./Flyers.html">Flyers</a>
+    </nav>
+    <hr />
+    <nav>
+        <a class="link" href="./A4SizeFlodedLeaflets.html">A4SizeFlodedLeaflets</a>
+        <a class="link" href="./B4SizeFoldedLeaflets.html">B4SizeFoldedLeaflets</a>
+        <a class="link" href="./A4PlusSizeFlodedLeaflets.html">A4PlusSizeFlodedLeaflets</a>
+        <a class="link" href="./6ppA5.html">6ppA5</a>
+        <a class="link" href="./A3SizeFlodedLeaflets.html">A3SizeFlodedLeaflets</a>
+       </nav>
+<hr />
+<nav>
+    <a class="link" href="./Flags.html">Flags</a>
+        <a class="link" href="./PavementSign.html">Pavement Sign</a>
+    <a class="link" href="./stamps.html">Stamps</a>
+    <a class="link" href="./WorkWaers.html">Clothes & workwear</a>
+    <a class="link" href="./invoiceBook.html">invoiceBook</a>
+</nav>
+<hr />
+<nav>
+    <a class="link" href="./BackLitPoster.html">BackLitPoster</a>
+    <a class="link" href="./PriceList.html">PriceList</a>
+    <a class="link" href="./OpeningTimes.html">OpeningTimes</a>
+    <a class="link" href="./MenuDisplay.html">MenuDisplay</a>
+    <a class="link" href="./TvMenuScreen.html">TvMenuScreen</a>
+</nav>
+<hr />
+<nav>
+    <a class="link" href="./FlatLEDLigtShopSign.html">FlatLEDLigtShopSign</a>
+    <a class="link" href="./3DlettersLEDLigtShopSign.html">3DlettersLEDLigtShopSign</a>
+    <a class="link" href="./SideWallProjectionSign.html">SideWallProjectionSign</a>
+</nav>
+
+   
 
 
-
-
- <!--cards -->
-<div class="card">
-   <div class="image">
-      <a href="LED Light Signs.html">
-      <img src="file:///C:/Users/44753/Desktop/Atlantic%20Website%2024-2-2024/resized%20Pictures/PNG%20resized%20pictures/Signage.png"></div>
-   <div class="title">
-    <h1>LED Light Signs</h1>
-   </div>
-   </a>
-   <div class="des">
-    <p>DesccriptionHere</p>
-   <button>ReadMore</button>
-   </div>
-   </div>
-   <!--cards -->
-
-
-    <!--cards -->
-<div class="card">
-   <div class="image">
-      <a href="Printed Signs.html">
-      <img src="file:///C:/Users/44753/Desktop/Atlantic%20Website%2024-2-2024/resized%20Pictures/Before%20resizing%20pictures/printed%20Signs.jpeg"></div>
-   <div class="title">
-    <h1>Printed Signs</h1>
-   </div>
-   </a>
-   <div class="des">
-    <p>DesccriptionHere</p>
-   <button>ReadMore</button>
-   </div>
-   </div>
-   <!--cards -->
-
-
-<!--cards -->
-<div class="card">
-   <div class="image">
-      <a href="Posters.html">
-      <img src="file:///C:/Users/44753/Desktop/Atlantic%20Website%2024-2-2024/resized%20Pictures/PNG%20resized%20pictures/posters.jpg"></div>
-   <div class="title">
-    <h1>Posters</h1>
-   </div>
-   </a>
-   <div class="des">
-    <p>DesccriptionHere</p>
-   <button>ReadMore</button>
-   </div>
-   </div>
-   <!--cards -->
-
-
-
-    <!--cards -->
-<div class="card">
-   <div class="image">
-      <a href="Stickers.html">
-      <img src="https://raw.githubusercontent.com/AtlanticDesignPrint/properAtlantic/main/resized%20Pictures/PNG%20resized%20pictures/outsideWaterproofSticker.png"></div>
-   <div class="title">
-    <h1>Stickers</h1>
-   </div>
-   </a>
-   <div class="des">
-    <p>DesccriptionHere</p>
-   <button>ReadMore</button>
-   </div>
-   </div>
-   <!--cards -->
-
-
-    <!--cards -->
-<div class="card">
-   <div class="image">
-      <a href="papers and cards.html">
-      <img src="https://raw.githubusercontent.com/AtlanticDesignPrint/properAtlantic/main/resized%20Pictures/PNG%20resized%20pictures/A3SizeFlodedLeaflets.png"></div>
-   <div class="title">
-    <h1>papers&cards</h1>
-   </div>
-   </a>
-   <div class="des">
-    <p>DesccriptionHere</p>
-   <button>ReadMore</button>
-   </div>
-   </div>
-   <!--cards -->
-
-
-    <!--cards -->
-<div class="card">
-   <div class="image">
-      <a href="WorkWears.html">
-      <img src="https://raw.githubusercontent.com/AtlanticDesignPrint/properAtlantic/main/resized%20Pictures/PNG%20resized%20pictures/Tshirts.png"></div>
-   <div class="title">
-    <h1>WorkWears</h1>
-   </div>
-   </a>
-   <div class="des">
-    <p>DesccriptionHere</p>
-   <button>ReadMore</button>
-   </div>
-   </div>
-   <!--cards -->
-
-
-
-    <!--cards -->
-<div class="card">
-   <div class="image">
-      <a href="stamps.html">
-      <img src="https://raw.githubusercontent.com/AtlanticDesignPrint/properAtlantic/main/resized%20Pictures/PNG%20resized%20pictures/Stamps.png"></div>
-   <div class="title">
-    <h1>stamps</h1>
-   </div>
-   </a>
-   <div class="des">
-    <p>DesccriptionHere</p>
-   <button>ReadMore</button>
-   </div>
-   </div>
-   <!--cards -->
-
-
-
-
-    <!--cards -->
-<div class="card">
-   <div class="image">
-      <a href="Flags.html">
-      <img src="https://raw.githubusercontent.com/AtlanticDesignPrint/properAtlantic/main/resized%20Pictures/PNG%20resized%20pictures/Flags.png"></div>
-   <div class="title">
-    <h1>Flags</h1>
-   </div>
-   </a>
-   <div class="des">
-    <p>DesccriptionHere</p>
-   <button>ReadMore</button>
-   </div>
-   </div>
-   <!--cards -->
-
-
-    <!--cards -->
-<div class="card">
-   <div class="image">
- <a href="Services.html">
-
-      <img src="file:///C:/Users/44753/Desktop/Atlantic%20Website%2024-2-2024/resized%20Pictures/Before%20resizing%20pictures/web-design.jpg"></div>
-   <div class="title">
-    <h1>Services</h1>
-   </div>
-   </a>
-   <div class="des">
-    <p>DesccriptionHere</p>
-   <button>ReadMore</button>
-   </div>
-   </div>
-   <!--cards -->
-
-
-
-  
-
+   
+    <Div id="Saraki">
+        <div class="nusin">
+            <h1>Hello Dear customer</h1>
+            <p>We are only production.</p>
+            <p> We make the sign and dispatch it to our customers.</p>
+            <p> We don't have fitting.</p>
+            <p> We don't have installation.</p>
+            <p> We are only production😊😊😊</p>
+            <p>our Prices are very very Reasonable</p>
+            <p>All our customers, they fit the sign by themself</p>
+            <p>the signs are ready to use</p>
+            <p>you can fit it by yourself, other wise you can pay £40 or £45 to an electricain or a builder or CCTV technicain, he can fit it for you</p>
+        </div>
   
     </Div>
     <footer>Cookie Policy
